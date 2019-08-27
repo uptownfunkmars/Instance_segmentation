@@ -4,5 +4,7 @@
 
 # jb.py
 
-批量将json中label为”***_******“转化为“***-******”。
+批量将json中label为“_”转化为“-”。
+例如：
+  “other_tooth” -> "other-tooth"
 
