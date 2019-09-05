@@ -23,6 +23,8 @@ co['info']['contributor'] = "Shining_3d"
 co['info']['url'] = ""
 co['info']['date_created'] = "2019/09/04"
 
+print('info done')
+
 jsonList = []
 for i in FileList:
     if i.split('.')[1] == 'json':
@@ -55,6 +57,7 @@ for i in range(len(jsonList)):
     co['images'].append(image)
     co['license'].append(license)
 
+print('license & image done')
 
 classes = []
 for i in range(len(jsonList)):
@@ -73,6 +76,8 @@ for i, c in enumerate(classes):
 
     co['categories'].append(category)
 
+print('categories done')
+    
 classes_d = {}
 for i, C in enumerate(classes):
     classes_d[C] = i + 1
@@ -102,12 +107,7 @@ for i in range(len(jsonList)):
 
         co['annotations'].append(temp)
 
-print(co)
+print('annotation done')
 with open(sav_dir + '\\' + 'instance_train_2019_sh3d.json', 'w', encoding='utf-8') as fp:
     json.dump(co, fp, ensure_ascii=False)
-#
-#
-#
-#
-#
-# # filename = jsonList[0].split('.')[0] + '.jpg'
+
