@@ -111,3 +111,6 @@ print('annotation done')
 with open(sav_dir + '\\' + 'instance_train_2019_sh3d.json', 'w', encoding='utf-8') as fp:
     json.dump(co, fp, ensure_ascii=False)
 
+print('json done')
+    
+    
