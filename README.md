@@ -28,3 +28,6 @@
   将labelme中保存的 polygan 转化为能被 COCO api 识别的形式如下
             [[x1, y1], [x2, y2]] ==> [[x1, y1, x2, y2]]
            
+# json2img
+
+批量将json(labelme生成的)转为可视化的img.
