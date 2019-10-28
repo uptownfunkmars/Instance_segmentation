@@ -31,3 +31,27 @@
 # json2img
 
 批量将json(labelme生成的)转为可视化的img.
+
+# demo.py
+
+demo.py用于测试训练好的模型对于单张图片的test
+
+# coco.py
+
+coco.py用于训练
+
+# config.py
+
+config.py 为设置模型的相关参数
+
+# model.py 
+
+model.py　为模型的具体实现
+
+# utils.py
+
+utils.py 为模块化实现　mask-rcnn　中实现的函数
+
+# visualize.py
+
+visualizw.py 为调用可视化所需要的函数 
