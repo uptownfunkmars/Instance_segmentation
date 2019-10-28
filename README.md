@@ -32,9 +32,17 @@
 
 批量将json(labelme生成的)转为可视化的img.
 
-# ROI_Align code来自https://github.com/longcw/RoIAlign.pytorch　
-# pth_nms code 来自https://github.com/meikuam/pth_nms
-# Mask_RCNN code 实现部分全部来自https://github.com/multimodallearning/pytorch-mask-rcnn 只做了些许改动使其成功运行．
+# ROI_Align code
+
+https://github.com/longcw/RoIAlign.pytorch　
+
+# pth_nms code 
+
+https://github.com/meikuam/pth_nms
+
+# Mask_RCNN code
+
+https://github.com/multimodallearning/pytorch-mask-rcnn 只做了些许改动使其成功运行．
 
 # demo.py
 
