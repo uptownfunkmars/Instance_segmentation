@@ -34,7 +34,7 @@
 
 # ROI_Align code
 
-https://github.com/longcw/RoIAlign.pytorch　
+https://github.com/longcw/RoIAlign.pytorch
 
 # pth_nms code 
 
